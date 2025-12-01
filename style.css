@@ -1,0 +1,60 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ff6f61;
+}
+
+#celsius {
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#btn{
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.num{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 12px;
+    width: 75px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 12px;
+    width: 25%;
+}
